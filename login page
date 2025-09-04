@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <style>
+                h2{
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+            color: #080707;
+            text-transform: uppercase;
+            text-decoration: underline;
+            margin-top: 10px;
+        }
+        .container{
+            background-color: transparent;
+            
+        }
+        body{
+            text-align: center;
+            font-size: 30px;
+            background-color: aquamarine;
+        }
+        
+        button{
+            margin-bottom: 1px;
+            background-color: whitesmoke;
+        }
+       
+    </style>
+</head>
+<body>
+   <div class="container mt-5">
+    <div class="row justify-content-centre">
+        <div class="col-md-4">
+            <h2>LOG-IN</h2>
+            <form  method="post">
+                <!--<label for="username">username</label>!-->
+                <input type="email" id="" id="email"placeholder="Enter your email"required><br>
+                <input type="password"id="password"required placeholder="Enter password"><br>
+            <button type="submit">Enter</button> 
+            <p>forgot password <a href="">Reset here </a>
+                <p> Forgot password <a href="">create now</a>
+            </form>
+            
+               
+                
+           
+
+        </div>
+    </div>
+   </div>
+  
+    
+</body>
+</html>
